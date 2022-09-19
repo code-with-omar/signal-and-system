@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 f=-2:.01:2;
-x=4*sinc(4*pi*f);
+x=4*sinc(4*f);
 
 %real part
 subplot(3,1,1);
